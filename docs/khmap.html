@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_ae3a2026eb3b46b5b463dedf7ff07988 {
+                #map_72cc6d352c5942d49904122828eb8b9b {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_ae3a2026eb3b46b5b463dedf7ff07988" ></div>
+            <div class="folium-map" id="map_72cc6d352c5942d49904122828eb8b9b" ></div>
         
 </body>
 <script>    
     
-            var map_ae3a2026eb3b46b5b463dedf7ff07988 = L.map(
-                "map_ae3a2026eb3b46b5b463dedf7ff07988",
+            var map_72cc6d352c5942d49904122828eb8b9b = L.map(
+                "map_72cc6d352c5942d49904122828eb8b9b",
                 {
                     center: [22.6273, 120.3014],
                     crs: L.CRS.EPSG3857,
@@ -55,9 +55,28 @@
 
         
     
-            var tile_layer_680fa5f8c9124873af068085fa35c2f0 = L.tileLayer(
+            var tile_layer_a4e91810d4714376abcb3f91fdcd1ea1 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_ae3a2026eb3b46b5b463dedf7ff07988);
+            ).addTo(map_72cc6d352c5942d49904122828eb8b9b);
         
+    
+            var marker_7d2c68c2fef64a1294ae66ce8ebf9533 = L.marker(
+                [22.6273, 120.3014],
+                {}
+            ).addTo(map_72cc6d352c5942d49904122828eb8b9b);
+        
+    
+        var popup_5fae4e7c39354c998e4e13180e9c00e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0b84cb9784547a5bd5491f27295b92b = $(`<div id="html_f0b84cb9784547a5bd5491f27295b92b" style="width: 100.0%; height: 100.0%;">高雄市</div>`)[0];
+            popup_5fae4e7c39354c998e4e13180e9c00e9.setContent(html_f0b84cb9784547a5bd5491f27295b92b);
+        
+
+        marker_7d2c68c2fef64a1294ae66ce8ebf9533.bindPopup(popup_5fae4e7c39354c998e4e13180e9c00e9)
+        ;
+
+        
+    
 </script>
