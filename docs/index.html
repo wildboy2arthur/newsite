@@ -23,20 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_94c4e41537b44ccb9531231908258096 {
-                    position: relative;
-                    width: 100.0%;
-                    height: 100.0%;
-                    left: 0.0%;
-                    top: 0.0%;
-                }
-            </style>
-        
-    
-            <meta name="viewport" content="width=device-width,
-                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-            <style>
-                #map_de432642ba96449b8ae60eb7f24719e4 {
+                #map_2c56d3847652421e858900f988a2ab18 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -48,16 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_94c4e41537b44ccb9531231908258096" ></div>
-        
-    
-            <div class="folium-map" id="map_de432642ba96449b8ae60eb7f24719e4" ></div>
+            <div class="folium-map" id="map_2c56d3847652421e858900f988a2ab18" ></div>
         
 </body>
 <script>    
     
-            var map_94c4e41537b44ccb9531231908258096 = L.map(
-                "map_94c4e41537b44ccb9531231908258096",
+            var map_2c56d3847652421e858900f988a2ab18 = L.map(
+                "map_2c56d3847652421e858900f988a2ab18",
                 {
                     center: [22.6203348, 120.3120375],
                     crs: L.CRS.EPSG3857,
@@ -71,31 +55,28 @@
 
         
     
-            var tile_layer_667e01e72c8140f69379c2e2df8cb45d = L.tileLayer(
+            var tile_layer_a2d4f5809bfa417aabd801e22f293e6d = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_94c4e41537b44ccb9531231908258096);
+            ).addTo(map_2c56d3847652421e858900f988a2ab18);
         
     
-            var map_de432642ba96449b8ae60eb7f24719e4 = L.map(
-                "map_de432642ba96449b8ae60eb7f24719e4",
-                {
-                    center: [22.6203348, 120.3120375],
-                    crs: L.CRS.EPSG3857,
-                    zoom: 10,
-                    zoomControl: true,
-                    preferCanvas: false,
-                    Popup: "\u9ad8\u96c4\u5e02",
-                }
-            );
+            var marker_6b43699e3a1944218824ec8b805f992b = L.marker(
+                [22.6203348, 120.3120375],
+                {}
+            ).addTo(map_2c56d3847652421e858900f988a2ab18);
+        
+    
+        var popup_4093514c9546428590b6ce3980970568 = L.popup({"maxWidth": "100%"});
 
-            
+        
+            var html_ad304870ebdf4c6e948afc28f2744d1c = $(`<div id="html_ad304870ebdf4c6e948afc28f2744d1c" style="width: 100.0%; height: 100.0%;">高雄市</div>`)[0];
+            popup_4093514c9546428590b6ce3980970568.setContent(html_ad304870ebdf4c6e948afc28f2744d1c);
+        
+
+        marker_6b43699e3a1944218824ec8b805f992b.bindPopup(popup_4093514c9546428590b6ce3980970568)
+        ;
 
         
     
-            var tile_layer_a4c16e2bb51a4277831d2b4adcce98d9 = L.tileLayer(
-                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_de432642ba96449b8ae60eb7f24719e4);
-        
 </script>
